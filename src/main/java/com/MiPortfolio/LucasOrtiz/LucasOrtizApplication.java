@@ -18,7 +18,7 @@ public class LucasOrtizApplication {
 		return new WebMvcConfigurer() {
 			@Override
 			public void addCorsMappings(CorsRegistry registry) {
-				registry.addMapping("/**").allowedOrigins("http://localhost:4200").allowedMethods("*").allowedHeaders("*");
+				registry.addMapping("/**").allowedOrigins("https://frontendprueba-f9914.web.app").allowedMethods("*").allowedHeaders("*");
 			}
 		};
 	}
